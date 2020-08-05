@@ -24,6 +24,8 @@ user's startup folder:
 If you use Chef configuration management, the [selenium](https://supermarket.chef.io/cookbooks/selenium) 
 cookbook can do perform this step for you.
 
+If you use Chocolatey, the [selenium](https://chocolatey.org/packages/selenium) package will do this for you.
+
 ## Gotcha #2 - Auto Login
 
 While windows services automatically start on server reboot, 
@@ -40,6 +42,8 @@ registry to auto logon to that account e.g.,
 
 If you use Chef configuration management, the [windows_autologin](https://supermarket.chef.io/cookbooks/windows_autologin) 
 cookbook can perform this step for you.
+
+If you use Chocolatey, the [autologin](https://chocolatey.org/packages/autologin) package will do this for you.
 
 ## Gotcha #3 - Display Resolution
 
@@ -71,6 +75,7 @@ Finally, add RDP firewall rule:
 If you use Chef configuration management, the [windows_screenresolution](https://supermarket.chef.io/cookbooks/windows_screenresolution) 
 cookbook can perform these steps for you.
 
+If you use Chocolatey, the [screen-resolution](https://chocolatey.org/packages/screen-resolution) package will do this for you.
 
 ---
 I hope this information helps those struggling with windows.  If you have a 
