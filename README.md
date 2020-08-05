@@ -29,7 +29,7 @@ If you use Chocolatey, the [selenium](https://chocolatey.org/packages/selenium) 
 ## Gotcha #2 - Auto Login
 
 While windows services automatically start on server reboot, 
-the user account won't. So how do you manage tahat?  By setting windows
+the user account won't. So how do you manage that?  By setting windows
 registry to auto logon to that account e.g.,
 
 ```
@@ -43,7 +43,7 @@ registry to auto logon to that account e.g.,
 If you use Chef configuration management, the [windows_autologin](https://supermarket.chef.io/cookbooks/windows_autologin) 
 cookbook can perform this step for you.
 
-If you use Chocolatey, the [autologin](https://chocolatey.org/packages/autologin) package will do this for you.
+If you use Chocolatey, the [autologon](https://chocolatey.org/packages/autologon) package will do this for you.
 
 ## Gotcha #3 - Display Resolution
 
